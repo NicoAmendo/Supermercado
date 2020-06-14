@@ -1,0 +1,44 @@
+ <%- include('partials/head.ejs') %>
+<body>
+    <%- include('partials/header.ejs') %>
+<div class="container" id= "contenedorRegistro">
+    
+    <section id="sing-form">
+    <div class= varios>
+        <h1>REGISTRO</h1>
+       <img src="/images/Logo.png" alt="" class="logoRegistro">
+    </div>
+    <form action="" method="post">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="nombre">
+        </p>
+        <p>
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="user">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </p>
+        <p>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="contraseña" id="password">
+        </p>
+        <p>
+            <label for="password_repeat">Repetir Contraseña:</label>
+            <input type="password" name="contraseña" id="password2">
+        </p>
+        <input type="submit" value="Registrar" id="botonDeRegistro">
+    </form>
+    </section>
+    </div>
+
+<%-include('partials/footer.ejs') %>
+
+</body>
+</html>
