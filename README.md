@@ -1,4 +1,4 @@
-# grupo_8_ExpressMarket
+ExpressMarket
 Proyecto Final Digital House - Programacion Web Full Stack - Ecommerce
 
 Supermercado Express Market
